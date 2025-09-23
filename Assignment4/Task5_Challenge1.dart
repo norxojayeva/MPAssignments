@@ -30,7 +30,7 @@ class UserProfileCard extends StatelessWidget {
       padding: const EdgeInsets.all(20),
       margin: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: Colors.grey[250],
+        color: Colors.grey[200],
         borderRadius: BorderRadius.circular(10),
       ),
       child: Column(
