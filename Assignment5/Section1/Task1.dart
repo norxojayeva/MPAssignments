@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Profile Card Demo',
       home: Scaffold(
         appBar: AppBar(title: const Text('Profile Cards')),
@@ -29,7 +30,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// Stateless widget (static profile card)
 class StaticProfileCard extends StatelessWidget {
   const StaticProfileCard({super.key});
 
@@ -45,7 +45,6 @@ class StaticProfileCard extends StatelessWidget {
   }
 }
 
-// Stateful widget (interactive profile card structure)
 class InteractiveProfileCard extends StatefulWidget {
   const InteractiveProfileCard({super.key});
 
